@@ -1,0 +1,185 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* This is for the top black thing that gives me different sections. */
+nav{
+  width: 100%;
+  background: #899bb3;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*Positions it to the left */
+li{
+  float: left; 
+}
+  
+a{
+  padding: 20px;
+  width: 100px; 
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+
+ /* A hero image is a container with a background image that stores a heading, a subheading, or any other web element. This is for the background, including it's colour, the imagejpg, it's size, and the padding. */
+.hero {
+  background-color: #ffffff;
+  background-image: url("../image/white-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+
+  
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  column-gap: 20px;
+  }
+
+.WeekOne {
+  height: 1500px;
+  background: #6e90a0;
+  display: inline-block;
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+
+.WeekTwo {
+  height: 1100px;
+  background: #6ea084;
+  display: inline-block;
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+.container2 {
+  display: flex;
+  column-gap: 20px;
+  }
+
+.WeekThree {
+  height: 950px;
+  background: #8f98d6;
+  display: inline-block;
+  width: 595px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.WeekFour {
+  height: 950px;
+  background: #d1b19f;
+  display: inline-block;
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.container3 {
+  display: flex;
+  column-gap: 20px;
+  }
+
+.WeekFive {
+  height: 890px;
+  background: #82ab89;
+  display: inline-block;
+  width: 595px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.WeekSix {
+  height: 890px;
+  background: #c69fd1;
+  display: inline-block;
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container4 {
+  display: flex;
+  column-gap: 20px;
+  }
+
+.WeekSept {
+  height: 1050px;
+  background: #ab8282;
+  display: inline-block;
+  width: 595px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.WeekHuit {
+  height: 1150px;
+  background: #9fafd1;
+  display: inline-block;
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.WeekNine {
+  height: 850px;
+  background: #82abab;
+  display: inline-block;
+  width: 595px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,64 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/*  */
+body {
+  margin: 0;
+}
+
+/* This is for the top black thing that gives me different sections. */
+nav{
+  width: 100%;
+  background: #2a2828;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/*Positions it to the left, to condense it otherwise it will go all seperatly */
+li{
+  float: left; 
+}
+
+/*This is so that the words look interesting instead of them all looking like links */
+a{
+  padding: 20px;
+  width: 100p the words x; 
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+ /* A hero image is a container with a background image that stores a heading, a subheading, or any other web element. This is for the background, including it's colour, the imagejpg, it's size, and the padding. */
+.hero {
+  background-color: #52806c;
+  background-image: url("../image/Plant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 1000px;
+}
+
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

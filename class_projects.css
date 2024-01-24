@@ -1,0 +1,161 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* This is for the top black thing that gives me different sections. */
+nav{
+  width: 100%;
+  background: #648276;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/*Positions it to the left */
+li{
+  float: left; 
+}
+  
+a{
+  padding: 20px;
+  width: 100px; 
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+
+mark {
+  background-color: #648276;
+  color: snow;
+}
+ /* A hero image is a container with a background image that stores a heading, a subheading, or any other web element. This is for the background, including it's colour, the imagejpg, it's size, and the padding. */
+.hero {
+  background-color: #92afa3;
+  background-image: url("../image/plants.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+  
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.Ram {
+  opacity:80%;
+  height: 400px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.CS {
+  opacity: 80%;
+  height: 600px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cmu1 {
+  height: 400px;
+  opacity: 80%;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cmu2 {
+  opacity: 80%;
+  height: 400px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cmu3 {
+  opacity: 80%;
+  height: 400px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cmu4 {
+  opacity: 80%;
+  height: 400px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cmu5 {
+  opacity: 80%;
+  height: 400px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.cmu6 {
+  opacity: 80%;
+  height: 400px;
+  background: #92afa3;
+  display: inline-block;
+  width: 1270px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}

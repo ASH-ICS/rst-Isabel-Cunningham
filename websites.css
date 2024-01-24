@@ -1,0 +1,128 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* This is for the top black thing that gives me different sections. */
+nav{
+  width: 100%;
+  background: #555558;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/*Positions it to the left, to condense it otherwise it will go all seperatly */
+li{
+  float: left; 
+}
+/*This is so that the words look interesting instead of them all looking like links */
+a{
+  padding: 20px;
+  width: 100px; 
+  display: block;
+  text-decoration: none;
+  color: #0a0a0a;
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+
+
+ /* A hero image is a container with a background image that stores a heading, a subheading, or any other web element. This is for the background, including it's colour, the imagejpg, it's size, and the padding. */
+.hero {
+  background-color: #7a9f8f;
+  background-image: url("../image/Plant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 600px;
+}
+
+
+.W3schools{
+  height: 400px;
+  background: #648276;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  padding-bottom: 50px;
+}
+.Typingclub{
+  height: 400px;
+  background: #78748b;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.Favicon{
+  height: 400px;
+  background: #efafaf;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.Youtube{
+  height: 450px;
+  background: #b3dfb3;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.cmu{
+  height: 450px;
+  background: #dfcdb3;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.doc{
+  height: 550px;
+  background: #c9dfb3;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.MRJ{
+  height: 550px;
+  background: #b3d4df;
+  display: inline-block;
+  width: 800px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+
+mark {
+  background-color: #648276;
+  color: #151313;
+}
+
+
+  
+html {
+  height: 100%;
+  width: 100%;
+}
